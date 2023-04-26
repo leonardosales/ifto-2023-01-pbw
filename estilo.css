@@ -10,13 +10,13 @@ body {
     margin-right: auto;
 }
 
-h1 {
+.titulo {
     color: #3d3d3d;
     background-color: #E1EDF2;
     padding: 10px;
 }
 
-h2 {
+.subtitulo {
     color: black;
     border-bottom: 2px solid #000;
 }
