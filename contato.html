@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>MusicDot | Sobre a empresa</title>
+    <link rel="icon" href="img/favicon.ico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <a href="index.html">
+        <img src="img/logo.svg" alt="Logotipo da MusicDot">
+    </a>
+    <h1 class="titulo">Entre em contato</h1>
+    <form name="form-contato">
+        <div>
+            <input type="text" 
+                id="nome"
+                placeholder="..." 
+                required="required" 
+                name="nome" 
+                class="campo-formulario" 
+            />
+            <label for="nome">Nome</label>
+        </div>
+        <div>
+            <input type="tel" 
+                id="telefone"
+                placeholder="(xx)xx-xx-xx-xx" 
+                required="required" 
+                name="telefone" 
+                class="campo-formulario" 
+            />
+            <label for="telefone">Fone</label>
+        </div>
+        <div>
+            <input type="email" 
+                id="email"
+                placeholder="fulano@mail.com" 
+                required="required" 
+                class="campo-formulario" 
+                name="email" 
+            />
+            <label for="email">Email</label>
+        </div>
+        <div>
+            <textarea 
+                placeholder="Deixe sua opinião"
+                required="required" 
+                class="campo-formulario"
+                style="height: 200px;"
+            ></textarea>
+        </div>
+        <div>
+            <input type="submit" 
+                class="botao-enviar" 
+                value="Enviar" 
+            />
+        </div>
+      </form>
+</body>
+
+</html>
